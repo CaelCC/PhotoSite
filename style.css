@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap');
+
+
+body {
+    background-color: #eee;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+
+    font-weight: 700;
+    /* font-weight: 700 is bold */
+    text-transform: uppercase;
+
+    letter-spacing: 5px;
+    /* VW (Viewport Width) sets the font/text size based on the width of the viewport (aka Browser Window */
+    font-size: 2vw;
+
+    text-align: center;
+    
+    border-bottom: 5px solid #ccc;
+
+    padding-bottom: 10px;
+
+    /* width of the paragraph element (aka bottom border) */
+    width: 48%;
+    /* Margin Auto centers the paragraph element horizontally inside the body element */
+    margin: auto;
+
+
+}
+
+/* goal to have 4 images in a row of 2 as the webpage is adjusted */
+img {
+    /* 25% x 4 =100% but 22.5% x 4 = 90% */
+    width: 22.5%;
+   
+    margin: 1.25%;
+
+    /* float CSS property places an element in the left or right of its container/parent element allowing text and inline elements to wrap around it. The element is removed from the normal document file. Also, removed "Mystery space" between image elements. (Note: this "mystery space" os the actually space between image elements.) */
+
+    float: left;
+}
+
+
+
+
+
